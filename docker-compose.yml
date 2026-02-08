@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  budibase:
+    image: budibase/budibase:latest
+    ports:
+      - "80:80"
+    volumes:
+      - budibase_data:/data
+    restart: always
+
+volumes:
+  budibase_data:
