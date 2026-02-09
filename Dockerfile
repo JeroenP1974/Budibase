@@ -1,5 +1,5 @@
 # Gebruik de officiële Budibase server image
-FROM budibase/budibase-server:latest
+FROM budibase/budibase:latest
 
 # Stel de werkdirectory in (optioneel)
 WORKDIR /app
